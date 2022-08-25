@@ -90,6 +90,7 @@
 .date {
   position: absolute;
   top: 60px;
+  z-index: 2;
 }
 
 .options {
@@ -99,6 +100,7 @@
   color: grey;
   box-shadow: 0 0 50px rgb(161, 161, 161);
   border-radius: 5px;
+  z-index: 2;
 }
 
 .optionItem {
