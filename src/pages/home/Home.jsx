@@ -1,5 +1,6 @@
 import Featured from "../../components/featured/Featured";
 import Inspirations from "../../components/featuredInspiration/Inspirations";
+import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
 import MailList from "../../components/mailList/MailList";
 import PropertyList from "../../components/PropertyList/PropertyList";
@@ -18,6 +19,7 @@ const Home = () => {
           <Inspirations />
         </div>
         <MailList />
+        <Footer />
       </div>
     </>
   );
