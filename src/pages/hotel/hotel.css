@@ -1,4 +1,5 @@
 .hotelContainer {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -112,7 +113,9 @@
 }
 
 .slider {
-  position: sticky;
+  position: absolute;
+  overflow-y: scroll;
+  overflow-x: hidden;
   top: 0;
   left: 0;
   width: 100vw;
